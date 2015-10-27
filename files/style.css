@@ -123,44 +123,6 @@ a, a:hover, a:focus {
     color: #b6b6b6;
 }
 
-.login-wrap {
-    padding: 20px;
-}
-
-.login-social-link  {
-    display: inline-block;
-    margin-top: 20px;
-    margin-bottom: 15px;
-}
-
-.login-social-link a {
-    color: #fff;
-    padding: 15px 28px;
-    border-radius: 4px;
-}
-
-.login-social-link a:hover {
-    color: #fff;
-}
-
-.login-social-link a i {
-    font-size: 20px;
-    padding-right: 10px;
-}
-
-.login-social-link a.facebook {
-    background: #5193ea;
-    margin-right: 22px;
-    box-shadow: 0 4px #2775e2;
-    float:left;
-}
-
-.login-social-link a.twitter {
-    background: #44ccfe;
-    box-shadow: 0 4px #2bb4e8;
-    float:left;
-}
-
 
 /*sidebar navigation*/
 
@@ -168,7 +130,7 @@ a, a:hover, a:focus {
     width: 210px;
     height: 100%;
     position: fixed;
-    background: #a9d96c none repeat scroll 0 0;
+    background: #2d9bb6 none repeat scroll 0 0;
 }
 
 #sidebar ul li {
@@ -189,7 +151,7 @@ a, a:hover, a:focus {
     height:17px;
     width:17px;
     display:inline-block;
-    background: url(../img/nav-expand.png) no-repeat top;
+    background: url(../images/nav-expand.png) no-repeat top;
     border-radius:3px;
     -moz-border-radius:3px;
     -webkit-border-radius:3px;
@@ -281,7 +243,7 @@ ul.sidebar-menu li a{
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
-    font-size: 14px;
+    font-size: 16px;
     outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -628,7 +590,7 @@ ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
 }
 
 .log-arrow-up {
-    background: url("../img/arrow-up.png") no-repeat;
+    background: url("../Images/arrow-up.png") no-repeat;
     width: 20px;
     height: 11px;
     position: absolute;
@@ -3751,254 +3713,6 @@ table.sliders tr td {
     border-radius: 50%;
     -webkit-border-radius: 50%;
 }
-
-.twt-feed {
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    color: #FFFFFF;
-    padding: 10px;
-    position: relative;
-    text-align: center;
-}
-
-.twt-feed.blue-bg {
-    background: #58C9F3;
-}
-
-.twt-feed h1 {
-    font-size: 22px;
-    font-weight: 300;
-    margin-bottom: 5px;
-}
-
-.twt-feed a  {
-    border: 8px solid #fff;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    display: inline-block;
-    margin-bottom: -55px;
-}
-
-.twt-feed a img {
-    height: 112px;
-    width: 112px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
-
-.twt-category {
-    display: inline-block;
-    margin-bottom: 11px;
-    margin-top: 55px;
-    width: 100%;
-}
-
-
-.twt-category ul li{
-    color: #89817f;
-    font-size: 13px;
-}
-
-.twt-category h5  {
-    font-size: 20px;
-    font-weight: 300;
-}
-
-.twt-write .t-text-area {
-    border: 1px solid #eeeeee;
-    border-radius: 0;
-}
-
-.twt-write {
-    margin-bottom: 10px;
-}
-
-.twt-footer {
-    padding: 10px 15px;
-}
-
-.btn-space {
-    padding-left: 11.6%;
-    padding-right: 11%;
-}
-
-.p-head {
-    color: #f77b6f;
-    font-weight: 400;
-    font-size: 14px;
-}
-
-.cmt-head {
-    font-weight: 400;
-    font-size: 13px;
-}
-
-.p-thumb img {
-    width: 50px;
-    height: 50px;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-}
-
-.tasi-tab .media-body p {
-    /*color: #b8bac6;*/
-}
-
-
-/*Timeline chat*/
-
-.chat-form {
-    margin-top: 25px;
-    clear: both;
-}
-
-.chat-form .input-cont {
-    margin-bottom: 10px;
-}
-
-.chat-form .input-cont input {
-    margin-bottom: 0px;
-}
-
-.chat-form .input-cont input{
-    border: 1px solid #d3d3d3 !important;
-    margin-top:0;
-    min-height: 45px;
-}
-
-.chat-form .input-cont input {
-    background-color: #fff !important;
-}
-
-.chat-features a {
-    margin-left: 10px;
-}
-
-.chat-features a i{
-    color: #d0d0d0;
-}
-
-.timeline-messages:before {
-    background: rgba(0, 0, 0, 0.1);
-    bottom: 0;
-    top: 0;
-    width: 2px;
-}
-.timeline-messages:before, .msg-time-chat:before, .msg-time-chat .text:before {
-    content: "";
-    left: 60px;
-    position: absolute;
-    top: -2px;
-}
-.timeline-messages, .msg-time-chat , .timeline-messages .msg-in, .timeline-messages .msg-out {
-    position: relative;
-}
-
-
-.timeline-messages .msg-in  .arrow {
-    /*border-right: 8px solid #F4F4F4 !important;*/
-}
-.timeline-messages .msg-in .arrow {
-    border-bottom: 8px solid transparent;
-    border-top: 8px solid transparent;
-    display: block;
-    height: 0;
-    left: -8px;
-    position: absolute;
-    top: 13px;
-    width: 0;
-}
-
-.timeline-messages .msg-out  .arrow {
-    /*border-right: 8px solid #41cac0 !important;*/
-}
-.timeline-messages .msg-out .arrow {
-    border-bottom: 8px solid transparent;
-    border-top: 8px solid transparent;
-    display: block;
-    height: 0;
-    left: -8px;
-    position: absolute;
-    top: 13px;
-    width: 0;
-}
-
-.msg-time-chat:first-child:before {
-    margin-top: 16px;
-}
-.msg-time-chat:before {
-    background:#CCCCCC;
-    border: 2px solid #FAFAFA;
-    border-radius: 100px;
-    -moz-border-radius: 100px;
-    -webkit-border-radius: 100px;
-    height: 14px;
-    margin: 23px 0 0 -6px;
-    width: 14px;
-}
-.msg-time-chat:hover:before {
-    background: #41cac0;
-}
-.msg-time-chat:first-child {
-    padding-top: 0;
-}
-.message-img {
-    float: left;
-    margin-right: 30px;
-    overflow: hidden;
-}
-.message-img img {
-    display: block;
-    height: 44px;
-    width: 44px;
-}
-.message-body {
-    margin-left: 80px;
-}
-.msg-time-chat .msg-in .text {
-    border: 1px solid #e3e6ed;
-    padding: 10px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-}
-
-.msg-time-chat .msg-out .text {
-    border: 1px solid #e3e6ed;
-    padding: 10px;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-}
-.msg-time-chat p {
-    margin: 0;
-}
-.msg-time-chat .attribution {
-    font-size: 11px;
-    margin: 0px 0 5px;
-}
-.msg-time-chat {
-    overflow: hidden;
-    padding:8px 0;
-}
-
-.msg-in a, .msg-in a:hover{
-    color: #b64c4c;
-    text-decoration: none;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    margin-right: 10px;
-    font-weight: 400;
-    font-size: 13px;
-}
-.msg-out a, .msg-out a:hover{
-    color: #288f98;
-    text-decoration: none;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    margin-right: 10px;
-    font-weight: 400;
-    font-size: 13px;
-}
-
 
 /*custom select*/
 
